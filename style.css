@@ -21,6 +21,7 @@ h1 {
   animation-name: color;
   animation-iteration-count: infinite;
   animation-duration: 4s;
+  font-size: 128px;
 }
 @keyframes color {
   0% {color: red;}
