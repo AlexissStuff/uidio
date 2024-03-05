@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  animation-name: bg;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+@keyframes bg {
+  0% {background-color: red;}
+  20% {background-color: orange;}
+  40% {background-color: yellow;}
+  60% {background-color: green;}
+  80% {background-color: blue;}
+  100% {background-color: red;}
+}
+h1 {
+  text-align: center;
+  animation-name: color;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+@keyframes color {
+  0% {color: red;}
+  20% {color: blue;}
+  40% {color: green;}
+  60% {color: yellow;}
+  80% {color: orange;}
+  100% {color: red;}
+}
